@@ -1,5 +1,5 @@
 {
-  "name": "@keegpt/ezedit",
+  "name": "@keegpt/zedit",
   "version": "1.0.0",
   "description": "A visual content editor for react.js",
   "main": "lib/index.js",
@@ -20,19 +20,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keegpt/ezedit.git"
+    "url": "git+https://github.com/keegpt/zedit.git"
   },
   "keywords": [],
   "author": "José Gomes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keegpt/ezedit/issues"
+    "url": "https://github.com/keegpt/zedit/issues"
   },
-  "homepage": "https://github.com/keegpt/ezedit#readme",
+  "homepage": "https://github.com/keegpt/zedit#readme",
   "devDependencies": {
+    "@types/dot-object": "^2.1.2",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "dot-object": "^2.1.4",
     "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.2.2"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
   }
 }
