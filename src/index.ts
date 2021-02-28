@@ -1,5 +1,5 @@
 export * from './Context'
-export * from './Portal'
+export { default as Portal } from './Portal'
 export * from './Provider'
 export * from './Scope'
 export * from './useComponent'
