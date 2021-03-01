@@ -37,14 +37,6 @@ const Zedit: React.ForwardRefRenderFunction<ZeditHandles, ZeditProps> = ({ initi
         []
     )
 
-    const reset = useCallback((data = {}) => {
-        components.current.forEach(({ name, clearValue }) => {
-            if (clearValue) {
-                return clearValue(data[name])
-            }
-        })
-    }, [])
-
     const setData = useCallback(
         (data) => {
             const componentValue: any = {};
@@ -121,10 +113,7 @@ const Zedit: React.ForwardRefRenderFunction<ZeditHandles, ZeditProps> = ({ initi
         },
         setData(data: any) {
             return setData(data)
-        },
-        reset(data: any) {
-            return reset(data)
-        },
+        }
     }))
 
     return (
@@ -134,10 +123,9 @@ const Zedit: React.ForwardRefRenderFunction<ZeditHandles, ZeditProps> = ({ initi
                 scopePath: '',
                 registerComponent,
                 unregisterComponent,
-            }
-            }
+            }}
         >
-            { children}
+            {children}
         </Context.Provider>
     )
 }

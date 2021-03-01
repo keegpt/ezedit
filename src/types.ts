@@ -33,13 +33,7 @@ export interface ZeditHandles {
   clearComponent(componentName: string): void;
   getData(): Record<string, any>;
   setData(data: Record<string, any>): void;
-  reset(data?: Record<string, any>): void;
 }
-
-export interface ZeditHelpers {
-  reset: (data?: Record<string, any>) => void;
-}
-
 export interface ZeditProps {
   initialData?: Record<string, any>;
   children: ReactNode;
