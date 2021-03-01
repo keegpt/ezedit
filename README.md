@@ -4,6 +4,7 @@ A visual content editor for react.js.
 ## Roadmap
 - Build components for all HTML tags (for now you have to build your own)
 - Generic modal to edit content
+- useComponent need to return if we are in editing mode
 
 ## How to use
 ```javascript
