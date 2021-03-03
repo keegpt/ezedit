@@ -1,6 +1,9 @@
 # Zedit
 Transform your react.js websites in live editors!
 
+## What is zedit
+Zedit is designed to people that build websites with react.js. Usually we create our span, headings, and other elements to build a website. The goal is to allow to create super elements that are able to transform themselfs in editable fields, allowing to edit content directly in the website.
+
 ## Roadmap
 - Build components for all HTML tags (for now you have to build your own)
 
